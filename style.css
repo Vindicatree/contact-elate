@@ -240,3 +240,25 @@ textarea.input{
         font-weight: 12px;
     }
 }
+
+@media(max-width:375px){
+    .item{
+        grid-template-columns: 1fr;
+    }
+
+    .contact{
+        display: none;
+    }
+
+    .text{
+        font-size: 35px;
+        text-align: center;
+        margin-left: -40px;
+    }
+
+    .btn{
+        width: 50%;
+        height: 40px;
+        font-weight: 12px;
+    }
+}
