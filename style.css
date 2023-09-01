@@ -199,6 +199,23 @@ textarea.input{
     transform: scale(1.1);
 }
 
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-top: 62px;
+}
+
+.icons li{
+    list-style: none;
+}
+
+.icons li a{
+    color: #fff;
+    font-size: 30px;
+    padding: 5px 10px;
+}
+
 @media(max-width:850px){
     .item{
         grid-template-columns: 1fr;
@@ -260,5 +277,18 @@ textarea.input{
         width: 50%;
         height: 40px;
         font-weight: 12px;
+    }
+
+    .icons{
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        margin-top: 60px;
+    }
+    
+    .icons li a{
+        color: #fff;
+        font-size: 30px;
+        padding: 5px 3px;
     }
 }
