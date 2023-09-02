@@ -200,10 +200,7 @@ textarea.input{
 }
 
 .icons{
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-    margin-top: 62px;
+    display: none;
 }
 
 .icons li{
@@ -234,6 +231,16 @@ textarea.input{
         width: 25%;
         height: 40px;
         font-size: 15px;
+    }
+
+    .icons{
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        margin-top: 62px;
+    }
+    .third-text{
+        margin-left: -40px;
     }
 }
 
